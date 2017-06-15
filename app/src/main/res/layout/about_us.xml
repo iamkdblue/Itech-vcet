@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+<ScrollView
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:layout_below="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="ITECH v1"
+        android:textSize="20sp"
+        android:id="@+id/version"
+        />
+    <TextView
+        android:layout_below="@+id/version"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed By"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/developed_by"
+        />
+    <TextView
+        android:layout_below="@+id/developed_by"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Kuldeep Mourya (kdblue)"
+        android:id="@+id/developer_name"
+        />
+    <TextView
+        android:layout_below="@+id/developer_name"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="About Itech"
+        android:textSize="20sp"
+        android:id="@+id/about_itech"
+        />
+
+    <TextView
+        android:layout_below="@+id/about_itech"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="ITECH is the departmental magazine committee which provides an opportunity to the engineers of the VCET to enhance their knowledge about the advancement in technology.  ITECH which looks after all the technical activities as well as academic interest of all the student pursuing Information Technology engineering in VCET. We aim in keeping the student updated with the latest enthralling technologies and advancements."
+        android:id="@+id/textView" />
+
+
+
+</RelativeLayout>
+</ScrollView>
+    <Button
+        android:id="@+id/close_dialog"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="X"
+        android:background="@color/readmore_color"
+        android:theme="@style/MyButton" />
+</RelativeLayout>
