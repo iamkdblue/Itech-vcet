@@ -160,10 +160,10 @@ public class CollegeNewsLetter extends Fragment {
             Log.d("MainActivity", "doInBackground");
             String str = "";
 
-            //URL url=new URL("http://javalovers.net16.net/showdata.php");
+            
             URL url = null;// this api link
             try {
-                url = new URL("http://euphoriant-confiden.000webhostapp.com/itechShowData.php");
+                url = new URL("your url is here");
                 Log.d("cccc", "url" + url.toString());
             } catch (MalformedURLException e) {
                 e.printStackTrace();
